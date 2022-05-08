@@ -1,16 +1,17 @@
 <template>
   <div>
 
-    <div class="position-absolute bg-image w-100 h-100" style="z-index: -1;">
+    <div class="d-none d-xl-block position-absolute bg-image w-100 h-100" style="z-index: -1;">
         <!-- <img src="/image-hero-desktop.png" alt=""> -->
     </div>
 
+
     <div class="container py-4">
       <div class="row">
-        <div class="col-md-6">
+        <div class="d-flex justify-content-between">
+          <div>
           <img src="/logo-dark.svg" alt="">
-        </div>
-        <div class="col-md-6 text-end">
+          </div>
           <button class="btn btn-primary border-0 bg-pink-gradient py-2 px-4">
             Get Started
           </button>
@@ -18,7 +19,7 @@
       </div>
     </div>
 
-    <div class="container mt-5 py-5" style="min-height: 500px;">
+    <div class="container mt-5 pt-5 pb-md-5" style="min-height: 500px;">
       <div class="row">
         <div class="col-md-12 pb-5">
           <h1>
@@ -41,10 +42,15 @@
       </div>
     </div>
 
-    <div class="bg-linear-gradient mt-5 pb-5">
+
+    <div class="d-md-none w-100">
+      <img src="/image-hero-mobile-fixed.svg" class="w-100" alt="">
+    </div>
+
+    <div class="bg-linear-gradient mt-md-5 pb-5">
       <div class="container">
         <div class="row gx-4">
-          <div class="col-md-4 mt-5 mb-2 py-4">
+          <div class="col-md-4 mt-md-5 mb-2 py-4">
             <div class="p-4 py-5 h-100 bg-white text-white bg-pink-gradient rounded">
               <h3>
                 Check out our most popular courses!

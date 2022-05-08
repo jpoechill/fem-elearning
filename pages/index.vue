@@ -1,8 +1,16 @@
 <template>
   <div>
 
-    <div class="d-none d-xl-block position-absolute bg-image w-100 h-100" style="z-index: -1;">
-        <!-- <img src="/image-hero-desktop.png" alt=""> -->
+    <div class="position-relative">
+      <div class="d-none  d-lg-none d-xxl-block position-absolute w-100" style="transform: translate(260px, -185px); z-index: -1;">
+          <img src="/image-hero-desktop.png" class="float-end" alt="">
+      </div>
+      <div class="d-none d-lg-block d-xxl-none position-absolute w-100" style="transform: translate(450px, -185px); z-index: -1;">
+          <img src="/image-hero-desktop.png" class="float-end" alt="">
+      </div>
+      <div class="d-none d-md-block d-lg-none position-absolute w-100" style="transform: translate(650px, -185px); z-index: -1;">
+          <img src="/image-hero-desktop.png" class="float-end" alt="">
+      </div>
     </div>
 
 
@@ -19,9 +27,9 @@
       </div>
     </div>
 
-    <div class="container mt-5 pt-5 pb-md-5" style="min-height: 500px;">
+    <div class="container mt-md-5 pt-5 pb-5">
       <div class="row">
-        <div class="col-md-12 pb-5">
+        <div class="col-md-12 pb-lg-5">
           <h1>
           Maximize skill, <br>
           minimize budget
@@ -78,7 +86,7 @@
               </span>
             </div>
           </div>
-          <div class="col-md-4 mt-5 mb-2 py-4">
+          <div class="col-md-4 mt-md-5 mb-2 py-4">
             <div class="position-relative">
               <div class="ps-5 position-absolute top-0 start-0 translate-middle">
                 <img class="ps-5" src="/icon-design.svg" alt="">
